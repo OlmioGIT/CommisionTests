@@ -23,7 +23,7 @@ class MainKtTest {
         //arrange
         val amountPrise = 100015
         val card = VKPAY
-        val expectedComm = 1
+        val expectedComm = 0
         //act
         val Actualcomm = calculateAll(amountPrise,card)
         assertEquals(expectedComm,Actualcomm)
